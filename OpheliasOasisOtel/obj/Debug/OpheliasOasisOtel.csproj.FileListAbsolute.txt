@@ -1,0 +1,13 @@
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\bin\Debug\OpheliasOasisOtel.exe.config
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\bin\Debug\OpheliasOasisOtel.exe
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\bin\Debug\OpheliasOasisOtel.pdb
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.csproj.AssemblyReference.cache
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.Anasayfa.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.Kaydol.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.Properties.Resources.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.csproj.GenerateResource.cache
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.csproj.CoreCompileInputs.cache
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.exe
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.pdb
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.MusteriGiris.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.SifremiUnuttum.resources
