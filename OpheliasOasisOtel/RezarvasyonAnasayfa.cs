@@ -25,54 +25,34 @@ namespace OpheliasOasisOtel
 
         private void buttonOnOdeme_Click(object sender, EventArgs e)
         {
-            if (panelOnOdeme.Visible == false)
-                _ = panelOnOdeme.Visible == true;
-            else if (panel60gun.Visible == true)
-                _ = panel60gun.Visible == false;
-            else if (panelStandart.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-            else if (panelTesvik.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-
+            OnOdeme on = new OnOdeme();
+            on.Show();
         }
 
         private void button60gun_Click(object sender, EventArgs e)
         {
-            if (panel60gun.Visible == false)
-                _ = panelOnOdeme.Visible == true;
-            else if (panelOnOdeme.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-           else  if (panelStandart.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-            else if (panelTesvik.Visible == true)
-                    _ = panelOnOdeme.Visible == false;
-
+            _60gun gun = new _60gun();
+            gun.Show();
+           
         }
+       
 
         private void buttonStandart_Click(object sender, EventArgs e)
         {
-            if (panelStandart.Visible == false)
-                _ = panelStandart.Visible == true;
-            else if (panelOnOdeme.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-            else if (panelStandart.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-            else if (panel60gun.Visible == true)
-                _ = panelOnOdeme.Visible == false;
+            Standart standart = new Standart();
+            standart.Show();
 
         }
 
         private void buttonTesvik_Click(object sender, EventArgs e)
         {
-            if (panelTesvik.Visible == false)
-                _ = panelTesvik.Visible == true;
-            else if (panelOnOdeme.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-            else if (panelStandart.Visible == true)
-                _ = panelOnOdeme.Visible == false;
-            else if (panel60gun.Visible == true)
-                _ = panelOnOdeme.Visible == false;
+            Tesvik tes = new Tesvik();
+            tes.Show();
+        }
 
+        private void RezarvasyonAnasayfa_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

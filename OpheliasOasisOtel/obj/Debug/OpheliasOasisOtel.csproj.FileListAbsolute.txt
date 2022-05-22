@@ -12,3 +12,5 @@ C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug
 C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.MusteriGiris.resources
 C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.SifremiUnuttum.resources
 C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.RezarvasyonAnasayfa.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.OnOdeme.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.Form2.resources

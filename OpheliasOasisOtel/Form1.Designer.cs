@@ -39,7 +39,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonKaydol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonKaydol.BackgroundImage")));
             this.buttonKaydol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonKaydol.Location = new System.Drawing.Point(248, 205);
+            this.buttonKaydol.Location = new System.Drawing.Point(267, 134);
             this.buttonKaydol.Name = "buttonKaydol";
             this.buttonKaydol.Size = new System.Drawing.Size(219, 68);
             this.buttonKaydol.TabIndex = 3;
@@ -65,7 +65,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonMusteriGiris.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMusteriGiris.BackgroundImage")));
             this.buttonMusteriGiris.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonMusteriGiris.Location = new System.Drawing.Point(248, 339);
+            this.buttonMusteriGiris.Location = new System.Drawing.Point(267, 268);
             this.buttonMusteriGiris.Name = "buttonMusteriGiris";
             this.buttonMusteriGiris.Size = new System.Drawing.Size(219, 68);
             this.buttonMusteriGiris.TabIndex = 40;
