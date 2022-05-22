@@ -16,7 +16,7 @@ namespace OpheliasOasisOtel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Anasayfa());
+            Application.Run(new RezarvasyonAnasayfa());
         }
     }
 }
