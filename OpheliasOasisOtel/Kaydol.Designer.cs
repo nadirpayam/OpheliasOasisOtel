@@ -70,7 +70,7 @@ namespace OpheliasOasisOtel
             this.buttonCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCikis.Font = new System.Drawing.Font("Constantia", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonCikis.ForeColor = System.Drawing.Color.Maroon;
-            this.buttonCikis.Location = new System.Drawing.Point(703, -2);
+            this.buttonCikis.Location = new System.Drawing.Point(703, 12);
             this.buttonCikis.Name = "buttonCikis";
             this.buttonCikis.Size = new System.Drawing.Size(85, 76);
             this.buttonCikis.TabIndex = 75;

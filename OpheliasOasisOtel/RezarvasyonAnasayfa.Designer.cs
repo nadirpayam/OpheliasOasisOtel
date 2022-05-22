@@ -36,13 +36,6 @@ namespace OpheliasOasisOtel
             this.button60gun = new System.Windows.Forms.Button();
             this.buttonStandart = new System.Windows.Forms.Button();
             this.buttonTesvik = new System.Windows.Forms.Button();
-            this.panelOnOdeme = new System.Windows.Forms.Panel();
-            this.panel60gun = new System.Windows.Forms.Panel();
-            this.panelStandart = new System.Windows.Forms.Panel();
-            this.panelTesvik = new System.Windows.Forms.Panel();
-            this.panelOnOdeme.SuspendLayout();
-            this.panel60gun.SuspendLayout();
-            this.panelStandart.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonCikis
@@ -75,7 +68,7 @@ namespace OpheliasOasisOtel
             // labelistek
             // 
             this.labelistek.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.labelistek.Location = new System.Drawing.Point(48, 116);
+            this.labelistek.Location = new System.Drawing.Point(31, 144);
             this.labelistek.Name = "labelistek";
             this.labelistek.Size = new System.Drawing.Size(405, 23);
             this.labelistek.TabIndex = 78;
@@ -83,7 +76,7 @@ namespace OpheliasOasisOtel
             // 
             // buttonOnOdeme
             // 
-            this.buttonOnOdeme.Location = new System.Drawing.Point(51, 161);
+            this.buttonOnOdeme.Location = new System.Drawing.Point(300, 202);
             this.buttonOnOdeme.Name = "buttonOnOdeme";
             this.buttonOnOdeme.Size = new System.Drawing.Size(164, 55);
             this.buttonOnOdeme.TabIndex = 80;
@@ -93,7 +86,7 @@ namespace OpheliasOasisOtel
             // 
             // button60gun
             // 
-            this.button60gun.Location = new System.Drawing.Point(251, 161);
+            this.button60gun.Location = new System.Drawing.Point(300, 321);
             this.button60gun.Name = "button60gun";
             this.button60gun.Size = new System.Drawing.Size(164, 55);
             this.button60gun.TabIndex = 81;
@@ -103,7 +96,7 @@ namespace OpheliasOasisOtel
             // 
             // buttonStandart
             // 
-            this.buttonStandart.Location = new System.Drawing.Point(448, 161);
+            this.buttonStandart.Location = new System.Drawing.Point(300, 433);
             this.buttonStandart.Name = "buttonStandart";
             this.buttonStandart.Size = new System.Drawing.Size(164, 55);
             this.buttonStandart.TabIndex = 82;
@@ -113,7 +106,7 @@ namespace OpheliasOasisOtel
             // 
             // buttonTesvik
             // 
-            this.buttonTesvik.Location = new System.Drawing.Point(650, 161);
+            this.buttonTesvik.Location = new System.Drawing.Point(300, 562);
             this.buttonTesvik.Name = "buttonTesvik";
             this.buttonTesvik.Size = new System.Drawing.Size(164, 55);
             this.buttonTesvik.TabIndex = 83;
@@ -121,52 +114,12 @@ namespace OpheliasOasisOtel
             this.buttonTesvik.UseVisualStyleBackColor = true;
             this.buttonTesvik.Click += new System.EventHandler(this.buttonTesvik_Click);
             // 
-            // panelOnOdeme
-            // 
-            this.panelOnOdeme.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panelOnOdeme.Controls.Add(this.panel60gun);
-            this.panelOnOdeme.Location = new System.Drawing.Point(12, 232);
-            this.panelOnOdeme.Name = "panelOnOdeme";
-            this.panelOnOdeme.Size = new System.Drawing.Size(836, 532);
-            this.panelOnOdeme.TabIndex = 84;
-            this.panelOnOdeme.Visible = false;
-            // 
-            // panel60gun
-            // 
-            this.panel60gun.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel60gun.Controls.Add(this.panelStandart);
-            this.panel60gun.Location = new System.Drawing.Point(8, 8);
-            this.panel60gun.Name = "panel60gun";
-            this.panel60gun.Size = new System.Drawing.Size(836, 532);
-            this.panel60gun.TabIndex = 85;
-            this.panel60gun.Visible = false;
-            // 
-            // panelStandart
-            // 
-            this.panelStandart.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panelStandart.Controls.Add(this.panelTesvik);
-            this.panelStandart.Location = new System.Drawing.Point(8, 8);
-            this.panelStandart.Name = "panelStandart";
-            this.panelStandart.Size = new System.Drawing.Size(836, 532);
-            this.panelStandart.TabIndex = 86;
-            this.panelStandart.Visible = false;
-            // 
-            // panelTesvik
-            // 
-            this.panelTesvik.BackColor = System.Drawing.Color.Chartreuse;
-            this.panelTesvik.Location = new System.Drawing.Point(8, 8);
-            this.panelTesvik.Name = "panelTesvik";
-            this.panelTesvik.Size = new System.Drawing.Size(836, 532);
-            this.panelTesvik.TabIndex = 87;
-            this.panelTesvik.Visible = false;
-            // 
             // RezarvasyonAnasayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(860, 777);
-            this.Controls.Add(this.panelOnOdeme);
             this.Controls.Add(this.buttonTesvik);
             this.Controls.Add(this.buttonStandart);
             this.Controls.Add(this.button60gun);
@@ -177,9 +130,7 @@ namespace OpheliasOasisOtel
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RezarvasyonAnasayfa";
             this.Text = "RezarvasyonAnasayfa";
-            this.panelOnOdeme.ResumeLayout(false);
-            this.panel60gun.ResumeLayout(false);
-            this.panelStandart.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.RezarvasyonAnasayfa_Load);
             this.ResumeLayout(false);
 
         }
@@ -193,9 +144,5 @@ namespace OpheliasOasisOtel
         private System.Windows.Forms.Button button60gun;
         private System.Windows.Forms.Button buttonStandart;
         private System.Windows.Forms.Button buttonTesvik;
-        private System.Windows.Forms.Panel panelOnOdeme;
-        private System.Windows.Forms.Panel panel60gun;
-        private System.Windows.Forms.Panel panelStandart;
-        private System.Windows.Forms.Panel panelTesvik;
     }
 }
