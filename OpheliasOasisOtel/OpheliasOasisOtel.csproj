@@ -72,6 +72,12 @@
     <Compile Include="Kaydol.Designer.cs">
       <DependentUpon>Kaydol.cs</DependentUpon>
     </Compile>
+    <Compile Include="MusteriAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriAnasayfa.Designer.cs">
+      <DependentUpon>MusteriAnasayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="MusteriGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,12 @@
     <Compile Include="RezarvasyonAnasayfa.Designer.cs">
       <DependentUpon>RezarvasyonAnasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rezarvasyonlarim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezarvasyonlarim.Designer.cs">
+      <DependentUpon>Rezarvasyonlarim.cs</DependentUpon>
+    </Compile>
     <Compile Include="SifremiUnuttum.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,9 @@
     <Compile Include="Tesvik.Designer.cs">
       <DependentUpon>Tesvik.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="60gun.resx">
+      <DependentUpon>60gun.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Kaydol.resx">
       <DependentUpon>Kaydol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriAnasayfa.resx">
+      <DependentUpon>MusteriAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MusteriGiris.resx">
       <DependentUpon>MusteriGiris.cs</DependentUpon>
@@ -137,8 +155,14 @@
     <EmbeddedResource Include="RezarvasyonAnasayfa.resx">
       <DependentUpon>RezarvasyonAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rezarvasyonlarim.resx">
+      <DependentUpon>Rezarvasyonlarim.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SifremiUnuttum.resx">
       <DependentUpon>SifremiUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standart.resx">
+      <DependentUpon>Standart.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

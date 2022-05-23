@@ -59,9 +59,11 @@ namespace OpheliasOasisOtel
         {
             DateTime dt1 = new DateTime(dateTimePickerGelis.Value.Day);
             DateTime dt2 = new DateTime(dateTimePickerAyrilis.Value.Day);
+            DateTime dt4 = new DateTime(dateTimePickerRez.Value.Day);
             dt1 = dateTimePickerGelis.Value;
             dt2 = dateTimePickerAyrilis.Value.AddDays(1);
             TimeSpan dt3 = dt2 - dt1;
+      
             labelFiyat.Text = (Convert.ToInt32(dt3.Days) * 100).ToString();
 
 
@@ -69,21 +71,29 @@ namespace OpheliasOasisOtel
        
         private void buttonRezYap_Click(object sender, EventArgs e)
         {
-            string sorgu = "insert into Rezarvasyonlar(rezarvasyonTipi,rezarvasyonTarihi,gelistarihi,ayrilistarihi,odemeTutari,musteriID)values(@reztip,@reztarih,@gelis,@ayrilis,@odeme,@musteriid)";
-            textBox1.Text = (Classlar.KullaniciBilgileri.KullaniciID).ToString();
-            string sorgu2 = "insert into  Musteriler(krediKartiNo)values(@kredi)";
-            SqlCommand komut2 = new SqlCommand(sorgu2, sql.baglan());
-            komut2.Parameters.AddWithValue("@kredi", textBoxKredi.Text);
-          SqlCommand komut = new SqlCommand(sorgu, sql.baglan());
-         komut.Parameters.AddWithValue("@reztip", "Ön Ödeme");
-            komut.Parameters.AddWithValue("@reztarih", dateTimePickerRez.Value);
-            komut.Parameters.AddWithValue("@gelis", dateTimePickerGelis.Value);
-            komut.Parameters.AddWithValue("@ayrilis", dateTimePickerAyrilis.Value);
-            komut.Parameters.AddWithValue("@odeme", Convert.ToInt32(labelFiyat.Text));
-            komut.Parameters.AddWithValue("@musteriid", Classlar.KullaniciBilgileri.KullaniciID);
-          
-            komut.ExecuteNonQuery();
-            MessageBox.Show("Cevabınız başarılı bir şekilde sisteme kaydedildi.");
+            
+                string sorgu = "insert into Rezarvasyonlar(rezarvasyonTipi,rezarvasyonTarihi,gelistarihi,ayrilistarihi,odemeTutari,musteriID)values(@reztip,@reztarih,@gelis,@ayrilis,@odeme,@musteriid) ";
+
+                SqlCommand komut = new SqlCommand(sorgu, sql.baglan());
+
+                komut.Parameters.AddWithValue("@reztip", "Ön Ödeme");
+                komut.Parameters.AddWithValue("@reztarih", dateTimePickerRez.Value);
+                komut.Parameters.AddWithValue("@gelis", dateTimePickerGelis.Value);
+                komut.Parameters.AddWithValue("@ayrilis", dateTimePickerAyrilis.Value);
+                komut.Parameters.AddWithValue("@odeme", Convert.ToInt32(labelFiyat.Text));
+                komut.Parameters.AddWithValue("@musteriid", Classlar.KullaniciBilgileri.KullaniciID);
+
+
+
+                komut.ExecuteNonQuery();
+
+                string sorgu2 = "UPDATE Musteriler SET kredikartiNo='" + textBoxKredi.Text + "'" + "  WHERE musteriID='" + Classlar.KullaniciBilgileri.KullaniciID + "'";
+
+                SqlCommand komut2 = new SqlCommand(sorgu2, sql.baglan());
+                komut2.ExecuteNonQuery();
+                MessageBox.Show("Rezarvasyonunuz başarılı bir şekilde sisteme kaydedildi.");
+            
+           
         }
     }
 }

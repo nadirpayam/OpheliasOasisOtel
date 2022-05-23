@@ -42,7 +42,6 @@ namespace OpheliasOasisOtel
             this.labelGunluk = new System.Windows.Forms.Label();
             this.buttonOnayla = new System.Windows.Forms.Button();
             this.buttonRezYap = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // dateTimePickerRez
@@ -105,7 +104,7 @@ namespace OpheliasOasisOtel
             // 
             // labelTutar
             // 
-            this.labelTutar.Location = new System.Drawing.Point(39, 414);
+            this.labelTutar.Location = new System.Drawing.Point(224, 351);
             this.labelTutar.Name = "labelTutar";
             this.labelTutar.Size = new System.Drawing.Size(137, 23);
             this.labelTutar.TabIndex = 67;
@@ -113,7 +112,7 @@ namespace OpheliasOasisOtel
             // 
             // labelFiyat
             // 
-            this.labelFiyat.Location = new System.Drawing.Point(225, 414);
+            this.labelFiyat.Location = new System.Drawing.Point(410, 351);
             this.labelFiyat.Name = "labelFiyat";
             this.labelFiyat.Size = new System.Drawing.Size(40, 23);
             this.labelFiyat.TabIndex = 68;
@@ -130,7 +129,7 @@ namespace OpheliasOasisOtel
             // 
             // labelGunluk
             // 
-            this.labelGunluk.Location = new System.Drawing.Point(182, 74);
+            this.labelGunluk.Location = new System.Drawing.Point(172, 74);
             this.labelGunluk.Name = "labelGunluk";
             this.labelGunluk.Size = new System.Drawing.Size(107, 23);
             this.labelGunluk.TabIndex = 70;
@@ -138,17 +137,17 @@ namespace OpheliasOasisOtel
             // 
             // buttonOnayla
             // 
-            this.buttonOnayla.Location = new System.Drawing.Point(41, 358);
+            this.buttonOnayla.Location = new System.Drawing.Point(27, 341);
             this.buttonOnayla.Name = "buttonOnayla";
-            this.buttonOnayla.Size = new System.Drawing.Size(75, 23);
+            this.buttonOnayla.Size = new System.Drawing.Size(149, 36);
             this.buttonOnayla.TabIndex = 71;
-            this.buttonOnayla.Text = "Onayla";
+            this.buttonOnayla.Text = "Hesabı Gör";
             this.buttonOnayla.UseVisualStyleBackColor = true;
             this.buttonOnayla.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonRezYap
             // 
-            this.buttonRezYap.Location = new System.Drawing.Point(42, 504);
+            this.buttonRezYap.Location = new System.Drawing.Point(32, 433);
             this.buttonRezYap.Name = "buttonRezYap";
             this.buttonRezYap.Size = new System.Drawing.Size(223, 36);
             this.buttonRezYap.TabIndex = 72;
@@ -156,22 +155,12 @@ namespace OpheliasOasisOtel
             this.buttonRezYap.UseVisualStyleBackColor = true;
             this.buttonRezYap.Click += new System.EventHandler(this.buttonRezYap_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(618, 355);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 39);
-            this.textBox1.TabIndex = 73;
-            // 
             // OnOdeme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(956, 616);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonRezYap);
             this.Controls.Add(this.buttonOnayla);
             this.Controls.Add(this.labelGunluk);
@@ -208,6 +197,5 @@ namespace OpheliasOasisOtel
         private System.Windows.Forms.Label labelGunluk;
         private System.Windows.Forms.Button buttonOnayla;
         private System.Windows.Forms.Button buttonRezYap;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
