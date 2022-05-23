@@ -26,35 +26,12 @@ namespace OpheliasOasisOtel
             Application.Exit();
         }
 
-        private void buttonOnOdeme_Click(object sender, EventArgs e)
-        {
-            OnOdeme on = new OnOdeme();
-            on.Show();
+     
+  
 
+       
 
-
-        }
-
-        private void button60gun_Click(object sender, EventArgs e)
-        {
-            _60gun gun = new _60gun();
-            gun.Show();
-
-        }
-
-
-        private void buttonStandart_Click(object sender, EventArgs e)
-        {
-            Standart standart = new Standart();
-            standart.Show();
-
-        }
-
-        private void buttonTesvik_Click(object sender, EventArgs e)
-        {
-            Tesvik tes = new Tesvik();
-            tes.Show();
-        }
+      
         int b;
         private void RezarvasyonAnasayfa_Load(object sender, EventArgs e)
         {
@@ -65,7 +42,7 @@ namespace OpheliasOasisOtel
             {
                 while (rd.Read())
                 {
-                    b = Convert.ToInt32(rd["tabanfiyat"]);
+                    b= Convert.ToInt32(rd["tabanfiyat"]);
 
                 }
             }
