@@ -60,7 +60,7 @@ namespace OpheliasOasisOtel
             this.labelOgrenciGiris.BackColor = System.Drawing.Color.Transparent;
             this.labelOgrenciGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelOgrenciGiris.ForeColor = System.Drawing.Color.DarkBlue;
-            this.labelOgrenciGiris.Location = new System.Drawing.Point(33, 59);
+            this.labelOgrenciGiris.Location = new System.Drawing.Point(37, 62);
             this.labelOgrenciGiris.Name = "labelOgrenciGiris";
             this.labelOgrenciGiris.Size = new System.Drawing.Size(521, 71);
             this.labelOgrenciGiris.TabIndex = 67;
@@ -98,7 +98,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonGonder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonGonder.BackgroundImage")));
             this.buttonGonder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonGonder.Location = new System.Drawing.Point(258, 363);
+            this.buttonGonder.Location = new System.Drawing.Point(217, 359);
             this.buttonGonder.Name = "buttonGonder";
             this.buttonGonder.Size = new System.Drawing.Size(197, 55);
             this.buttonGonder.TabIndex = 63;

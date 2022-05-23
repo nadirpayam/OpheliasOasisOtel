@@ -38,45 +38,51 @@ namespace OpheliasOasisOtel
             // 
             // textBoxgelir
             // 
-            this.textBoxgelir.Location = new System.Drawing.Point(271, 82);
+            this.textBoxgelir.Location = new System.Drawing.Point(308, 81);
             this.textBoxgelir.Multiline = true;
             this.textBoxgelir.Name = "textBoxgelir";
-            this.textBoxgelir.Size = new System.Drawing.Size(230, 22);
+            this.textBoxgelir.Size = new System.Drawing.Size(235, 32);
             this.textBoxgelir.TabIndex = 9;
             // 
             // labelgelir
             // 
-            this.labelgelir.Location = new System.Drawing.Point(87, 81);
+            this.labelgelir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelgelir.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelgelir.Location = new System.Drawing.Point(64, 81);
             this.labelgelir.Name = "labelgelir";
-            this.labelgelir.Size = new System.Drawing.Size(146, 23);
+            this.labelgelir.Size = new System.Drawing.Size(175, 37);
             this.labelgelir.TabIndex = 8;
             this.labelgelir.Text = "Beklenen Gelir:";
             // 
             // textBoxortgelir
             // 
-            this.textBoxortgelir.Location = new System.Drawing.Point(271, 144);
+            this.textBoxortgelir.Location = new System.Drawing.Point(308, 143);
             this.textBoxortgelir.Multiline = true;
             this.textBoxortgelir.Name = "textBoxortgelir";
-            this.textBoxortgelir.Size = new System.Drawing.Size(230, 22);
+            this.textBoxortgelir.Size = new System.Drawing.Size(235, 32);
             this.textBoxortgelir.TabIndex = 11;
             this.textBoxortgelir.TextChanged += new System.EventHandler(this.textBoxortgelir_TextChanged);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(87, 143);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(64, 143);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 23);
+            this.label1.Size = new System.Drawing.Size(175, 42);
             this.label1.TabIndex = 10;
             this.label1.Text = "Ortalama gelir:";
             // 
             // buttonYazdir
             // 
-            this.buttonYazdir.Location = new System.Drawing.Point(198, 244);
+            this.buttonYazdir.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonYazdir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonYazdir.Location = new System.Drawing.Point(308, 233);
             this.buttonYazdir.Name = "buttonYazdir";
-            this.buttonYazdir.Size = new System.Drawing.Size(206, 154);
+            this.buttonYazdir.Size = new System.Drawing.Size(235, 68);
             this.buttonYazdir.TabIndex = 12;
             this.buttonYazdir.Text = "Çıktı Al";
-            this.buttonYazdir.UseVisualStyleBackColor = true;
+            this.buttonYazdir.UseVisualStyleBackColor = false;
             this.buttonYazdir.Click += new System.EventHandler(this.buttonYazdir_Click);
             // 
             // OdaGelirRaporu
@@ -84,12 +90,13 @@ namespace OpheliasOasisOtel
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(636, 475);
+            this.ClientSize = new System.Drawing.Size(779, 502);
             this.Controls.Add(this.buttonYazdir);
             this.Controls.Add(this.textBoxortgelir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxgelir);
             this.Controls.Add(this.labelgelir);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OdaGelirRaporu";
             this.Text = "OdaGelirRaporu";
             this.Load += new System.EventHandler(this.OdaGelirRaporu_Load);

@@ -58,28 +58,32 @@ namespace OpheliasOasisOtel
             // 
             // buttoniptalet
             // 
-            this.buttoniptalet.Location = new System.Drawing.Point(51, 340);
+            this.buttoniptalet.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttoniptalet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttoniptalet.Location = new System.Drawing.Point(50, 340);
             this.buttoniptalet.Name = "buttoniptalet";
-            this.buttoniptalet.Size = new System.Drawing.Size(155, 66);
+            this.buttoniptalet.Size = new System.Drawing.Size(218, 66);
             this.buttoniptalet.TabIndex = 2;
             this.buttoniptalet.Text = "Rezarvasyonu iptal et";
-            this.buttoniptalet.UseVisualStyleBackColor = true;
+            this.buttoniptalet.UseVisualStyleBackColor = false;
             this.buttoniptalet.Click += new System.EventHandler(this.buttoniptalet_Click);
             // 
             // buttonGuncelle
             // 
-            this.buttonGuncelle.Location = new System.Drawing.Point(87, 453);
+            this.buttonGuncelle.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonGuncelle.Location = new System.Drawing.Point(51, 453);
             this.buttonGuncelle.Name = "buttonGuncelle";
-            this.buttonGuncelle.Size = new System.Drawing.Size(87, 66);
+            this.buttonGuncelle.Size = new System.Drawing.Size(217, 66);
             this.buttonGuncelle.TabIndex = 3;
             this.buttonGuncelle.Text = "Tarihi Değiştir";
-            this.buttonGuncelle.UseVisualStyleBackColor = true;
+            this.buttonGuncelle.UseVisualStyleBackColor = false;
             this.buttonGuncelle.Click += new System.EventHandler(this.buttonGuncelle_Click);
             // 
             // dateTimePickerdegisik
             // 
             this.dateTimePickerdegisik.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerdegisik.Location = new System.Drawing.Point(218, 473);
+            this.dateTimePickerdegisik.Location = new System.Drawing.Point(357, 473);
             this.dateTimePickerdegisik.Name = "dateTimePickerdegisik";
             this.dateTimePickerdegisik.Size = new System.Drawing.Size(200, 22);
             this.dateTimePickerdegisik.TabIndex = 4;
@@ -96,6 +100,7 @@ namespace OpheliasOasisOtel
             this.Controls.Add(this.buttoniptalet);
             this.Controls.Add(this.dateTimePickertoday);
             this.Controls.Add(this.dataGridViewRezler);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Rezarvasyonlarim";
             this.Text = "Rezarvasyonlarim";
             this.Load += new System.EventHandler(this.Rezarvasyonlarim_Load);
