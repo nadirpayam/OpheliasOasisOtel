@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OpheliasOasisOtel
 {
-    public partial class Tesvik : Form
+    public partial class YoneticiGiris : Form
     {
-        public Tesvik()
+        public YoneticiGiris()
         {
             InitializeComponent();
         }

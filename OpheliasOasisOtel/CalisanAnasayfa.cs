@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OpheliasOasisOtel
 {
-    public partial class Standart : Form
+    public partial class CalisanAnasayfa : Form
     {
-        public Standart()
+        public CalisanAnasayfa()
         {
             InitializeComponent();
         }

@@ -57,7 +57,7 @@ namespace OpheliasOasisOtel
                     Classlar.KullaniciBilgileri.Mail = Mailtxt;
                     Classlar.KullaniciBilgileri.Telefon = Telefontxt;
 
-                    RezarvasyonAnasayfa anasayfa = new RezarvasyonAnasayfa();
+                    MusteriAnasayfa anasayfa = new MusteriAnasayfa();
                     anasayfa.Show();
                     this.Hide();
 

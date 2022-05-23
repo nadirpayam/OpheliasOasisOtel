@@ -46,14 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="60gun.cs">
+    <Compile Include="BeklenenDolulukRaporu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="60gun.Designer.cs">
-      <DependentUpon>60gun.cs</DependentUpon>
+    <Compile Include="BeklenenDolulukRaporu.Designer.cs">
+      <DependentUpon>BeklenenDolulukRaporu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalisanAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanAnasayfa.Designer.cs">
+      <DependentUpon>CalisanAnasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalisanGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanGiris.Designer.cs">
+      <DependentUpon>CalisanGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="Classlar\KullaniciBilgileri.cs" />
     <Compile Include="Classlar\SqlBaglantisi.cs" />
+    <Compile Include="Fatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fatura.Designer.cs">
+      <DependentUpon>Fatura.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +83,12 @@
     </Compile>
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GunlukGelenlerRaporu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GunlukGelenlerRaporu.Designer.cs">
+      <DependentUpon>GunlukGelenlerRaporu.cs</DependentUpon>
     </Compile>
     <Compile Include="Kaydol.cs">
       <SubType>Form</SubType>
@@ -84,11 +108,11 @@
     <Compile Include="MusteriGiris.Designer.cs">
       <DependentUpon>MusteriGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="OnOdeme.cs">
+    <Compile Include="OdaGelirRaporu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OnOdeme.Designer.cs">
-      <DependentUpon>OnOdeme.cs</DependentUpon>
+    <Compile Include="OdaGelirRaporu.Designer.cs">
+      <DependentUpon>OdaGelirRaporu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -110,26 +134,38 @@
     <Compile Include="SifremiUnuttum.Designer.cs">
       <DependentUpon>SifremiUnuttum.cs</DependentUpon>
     </Compile>
-    <Compile Include="Standart.cs">
+    <Compile Include="YoneticiAnasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Standart.Designer.cs">
-      <DependentUpon>Standart.cs</DependentUpon>
+    <Compile Include="YoneticiAnasayfa.Designer.cs">
+      <DependentUpon>YoneticiAnasayfa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tesvik.cs">
+    <Compile Include="YoneticiGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tesvik.Designer.cs">
-      <DependentUpon>Tesvik.cs</DependentUpon>
+    <Compile Include="YoneticiGiris.Designer.cs">
+      <DependentUpon>YoneticiGiris.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="60gun.resx">
-      <DependentUpon>60gun.cs</DependentUpon>
+    <EmbeddedResource Include="BeklenenDolulukRaporu.resx">
+      <DependentUpon>BeklenenDolulukRaporu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalisanAnasayfa.resx">
+      <DependentUpon>CalisanAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalisanGiris.resx">
+      <DependentUpon>CalisanGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fatura.resx">
+      <DependentUpon>Fatura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GunlukGelenlerRaporu.resx">
+      <DependentUpon>GunlukGelenlerRaporu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kaydol.resx">
       <DependentUpon>Kaydol.cs</DependentUpon>
@@ -140,8 +176,8 @@
     <EmbeddedResource Include="MusteriGiris.resx">
       <DependentUpon>MusteriGiris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OnOdeme.resx">
-      <DependentUpon>OnOdeme.cs</DependentUpon>
+    <EmbeddedResource Include="OdaGelirRaporu.resx">
+      <DependentUpon>OdaGelirRaporu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -161,8 +197,11 @@
     <EmbeddedResource Include="SifremiUnuttum.resx">
       <DependentUpon>SifremiUnuttum.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Standart.resx">
-      <DependentUpon>Standart.cs</DependentUpon>
+    <EmbeddedResource Include="YoneticiAnasayfa.resx">
+      <DependentUpon>YoneticiAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoneticiGiris.resx">
+      <DependentUpon>YoneticiGiris.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
