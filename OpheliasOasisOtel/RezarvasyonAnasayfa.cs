@@ -112,20 +112,26 @@ namespace OpheliasOasisOtel
         }
 
         double toplamGun;
+        double gunler;
         private void buttonOnayla_Click(object sender, EventArgs e)
         {
+            DateTime bugun = new DateTime();
+            bugun = DateTime.Now;
             DateTime baslamaTarihi = new DateTime();
             baslamaTarihi = dateTimePickerGelis.Value;
             DateTime bitisTarihi = new DateTime();
             bitisTarihi = dateTimePickerAyrilis.Value;
 
-            TimeSpan kalangun = bitisTarihi - baslamaTarihi;//Sonucu zaman olarak döndürür
+            TimeSpan kalangun =   baslamaTarihi - bugun;//Sonucu zaman olarak döndürür
              toplamGun = kalangun.TotalDays;// kalanGun den TotalDays ile sadece toplam gun değerini çekiyoruz. 
 
+            TimeSpan tatilgunleri = bitisTarihi - baslamaTarihi;//Sonucu zaman olarak döndürür
+            gunler =tatilgunleri.TotalDays;// kalanGun den TotalDays ile sadece toplam gun değerini çekiyoruz. 
 
+            double d = Math.Ceiling(gunler);
             double c = Math.Ceiling(toplamGun);
 
-            labelFiyat.Text = Math.Ceiling(toplamGun * Convert.ToInt32(labelGunluk.Text)).ToString();
+            labelFiyat.Text = Math.Ceiling(gunler * Convert.ToInt32(labelGunluk.Text)).ToString();
 
 
             

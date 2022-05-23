@@ -16,5 +16,19 @@ namespace OpheliasOasisOtel
         {
             InitializeComponent();
         }
+
+        private void buttonRezYap_Click(object sender, EventArgs e)
+        {
+            RezarvasyonAnasayfa rez = new RezarvasyonAnasayfa();
+            rez.Show();
+            this.Hide();
+        }
+
+        private void buttonRezlerim_Click(object sender, EventArgs e)
+        {
+            Rezarvasyonlarim rezlerim = new Rezarvasyonlarim();
+            rezlerim.Show();
+            this.Hide();
+        }
     }
 }
