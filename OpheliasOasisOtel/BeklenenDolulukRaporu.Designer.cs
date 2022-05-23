@@ -40,43 +40,47 @@ namespace OpheliasOasisOtel
             // dataGridViewdoluluk
             // 
             this.dataGridViewdoluluk.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewdoluluk.Location = new System.Drawing.Point(63, 31);
+            this.dataGridViewdoluluk.Location = new System.Drawing.Point(63, 48);
             this.dataGridViewdoluluk.Name = "dataGridViewdoluluk";
             this.dataGridViewdoluluk.RowHeadersWidth = 51;
             this.dataGridViewdoluluk.RowTemplate.Height = 24;
-            this.dataGridViewdoluluk.Size = new System.Drawing.Size(902, 150);
+            this.dataGridViewdoluluk.Size = new System.Drawing.Size(921, 214);
             this.dataGridViewdoluluk.TabIndex = 0;
             // 
             // textBoxKayit
             // 
-            this.textBoxKayit.Location = new System.Drawing.Point(276, 256);
+            this.textBoxKayit.Location = new System.Drawing.Point(300, 307);
             this.textBoxKayit.Multiline = true;
             this.textBoxKayit.Name = "textBoxKayit";
-            this.textBoxKayit.Size = new System.Drawing.Size(230, 22);
+            this.textBoxKayit.Size = new System.Drawing.Size(230, 36);
             this.textBoxKayit.TabIndex = 1;
             // 
             // labelKayit
             // 
-            this.labelKayit.Location = new System.Drawing.Point(102, 261);
+            this.labelKayit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelKayit.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelKayit.Location = new System.Drawing.Point(58, 307);
             this.labelKayit.Name = "labelKayit";
-            this.labelKayit.Size = new System.Drawing.Size(100, 23);
+            this.labelKayit.Size = new System.Drawing.Size(168, 36);
             this.labelKayit.TabIndex = 2;
             this.labelKayit.Text = "Kayit Sayisi:";
             // 
             // labeloran
             // 
-            this.labeloran.Location = new System.Drawing.Point(102, 369);
+            this.labeloran.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labeloran.ForeColor = System.Drawing.SystemColors.Control;
+            this.labeloran.Location = new System.Drawing.Point(58, 404);
             this.labeloran.Name = "labeloran";
-            this.labeloran.Size = new System.Drawing.Size(100, 23);
+            this.labeloran.Size = new System.Drawing.Size(180, 34);
             this.labeloran.TabIndex = 3;
             this.labeloran.Text = "Doluluk Oranı:";
             // 
             // textBoxoran
             // 
-            this.textBoxoran.Location = new System.Drawing.Point(276, 366);
+            this.textBoxoran.Location = new System.Drawing.Point(300, 401);
             this.textBoxoran.Multiline = true;
             this.textBoxoran.Name = "textBoxoran";
-            this.textBoxoran.Size = new System.Drawing.Size(230, 22);
+            this.textBoxoran.Size = new System.Drawing.Size(230, 37);
             this.textBoxoran.TabIndex = 4;
             // 
             // BeklenenDolulukRaporu
@@ -90,6 +94,7 @@ namespace OpheliasOasisOtel
             this.Controls.Add(this.labelKayit);
             this.Controls.Add(this.textBoxKayit);
             this.Controls.Add(this.dataGridViewdoluluk);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BeklenenDolulukRaporu";
             this.Text = "BeklenenDolulukRaporu";
             this.Load += new System.EventHandler(this.BeklenenDolulukRaporu_Load);

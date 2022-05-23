@@ -41,17 +41,19 @@ namespace OpheliasOasisOtel
             this.dataGridViewdoluluk.Name = "dataGridViewdoluluk";
             this.dataGridViewdoluluk.RowHeadersWidth = 51;
             this.dataGridViewdoluluk.RowTemplate.Height = 24;
-            this.dataGridViewdoluluk.Size = new System.Drawing.Size(586, 375);
+            this.dataGridViewdoluluk.Size = new System.Drawing.Size(687, 375);
             this.dataGridViewdoluluk.TabIndex = 1;
             // 
             // buttonYazdir
             // 
-            this.buttonYazdir.Location = new System.Drawing.Point(303, 445);
+            this.buttonYazdir.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonYazdir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonYazdir.Location = new System.Drawing.Point(525, 439);
             this.buttonYazdir.Name = "buttonYazdir";
-            this.buttonYazdir.Size = new System.Drawing.Size(206, 154);
+            this.buttonYazdir.Size = new System.Drawing.Size(206, 72);
             this.buttonYazdir.TabIndex = 4;
             this.buttonYazdir.Text = "Çıktı Al";
-            this.buttonYazdir.UseVisualStyleBackColor = true;
+            this.buttonYazdir.UseVisualStyleBackColor = false;
             this.buttonYazdir.Click += new System.EventHandler(this.buttonYazdir_Click);
             // 
             // GunlukGelenlerRaporu
@@ -62,6 +64,7 @@ namespace OpheliasOasisOtel
             this.ClientSize = new System.Drawing.Size(795, 611);
             this.Controls.Add(this.buttonYazdir);
             this.Controls.Add(this.dataGridViewdoluluk);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GunlukGelenlerRaporu";
             this.Text = "GunlukGelenlerRaporu";
             this.Load += new System.EventHandler(this.GunlukGelenlerRaporu_Load);

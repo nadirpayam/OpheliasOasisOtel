@@ -37,21 +37,23 @@ namespace OpheliasOasisOtel
             // dataGridViewdoluluk
             // 
             this.dataGridViewdoluluk.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewdoluluk.Location = new System.Drawing.Point(142, 45);
+            this.dataGridViewdoluluk.Location = new System.Drawing.Point(85, 44);
             this.dataGridViewdoluluk.Name = "dataGridViewdoluluk";
             this.dataGridViewdoluluk.RowHeadersWidth = 51;
             this.dataGridViewdoluluk.RowTemplate.Height = 24;
-            this.dataGridViewdoluluk.Size = new System.Drawing.Size(586, 321);
+            this.dataGridViewdoluluk.Size = new System.Drawing.Size(710, 321);
             this.dataGridViewdoluluk.TabIndex = 2;
             // 
             // buttonYazdir
             // 
-            this.buttonYazdir.Location = new System.Drawing.Point(321, 392);
+            this.buttonYazdir.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonYazdir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonYazdir.Location = new System.Drawing.Point(605, 404);
             this.buttonYazdir.Name = "buttonYazdir";
-            this.buttonYazdir.Size = new System.Drawing.Size(206, 154);
+            this.buttonYazdir.Size = new System.Drawing.Size(190, 75);
             this.buttonYazdir.TabIndex = 3;
             this.buttonYazdir.Text = "Çıktı Al";
-            this.buttonYazdir.UseVisualStyleBackColor = true;
+            this.buttonYazdir.UseVisualStyleBackColor = false;
             this.buttonYazdir.Click += new System.EventHandler(this.buttonYazdir_Click);
             // 
             // Fatura
@@ -62,6 +64,7 @@ namespace OpheliasOasisOtel
             this.ClientSize = new System.Drawing.Size(915, 558);
             this.Controls.Add(this.buttonYazdir);
             this.Controls.Add(this.dataGridViewdoluluk);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Fatura";
             this.Text = "Fatura";
             this.Load += new System.EventHandler(this.Fatura_Load);

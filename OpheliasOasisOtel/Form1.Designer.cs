@@ -41,7 +41,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonKaydol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonKaydol.BackgroundImage")));
             this.buttonKaydol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonKaydol.Location = new System.Drawing.Point(267, 128);
+            this.buttonKaydol.Location = new System.Drawing.Point(275, 90);
             this.buttonKaydol.Name = "buttonKaydol";
             this.buttonKaydol.Size = new System.Drawing.Size(219, 68);
             this.buttonKaydol.TabIndex = 3;
@@ -67,7 +67,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonMusteriGiris.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMusteriGiris.BackgroundImage")));
             this.buttonMusteriGiris.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonMusteriGiris.Location = new System.Drawing.Point(267, 240);
+            this.buttonMusteriGiris.Location = new System.Drawing.Point(275, 184);
             this.buttonMusteriGiris.Name = "buttonMusteriGiris";
             this.buttonMusteriGiris.Size = new System.Drawing.Size(219, 68);
             this.buttonMusteriGiris.TabIndex = 40;
@@ -77,7 +77,8 @@ namespace OpheliasOasisOtel
             // buttonCalisan
             // 
             this.buttonCalisan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCalisan.Location = new System.Drawing.Point(267, 314);
+            this.buttonCalisan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonCalisan.Location = new System.Drawing.Point(275, 277);
             this.buttonCalisan.Name = "buttonCalisan";
             this.buttonCalisan.Size = new System.Drawing.Size(219, 68);
             this.buttonCalisan.TabIndex = 41;
@@ -87,11 +88,13 @@ namespace OpheliasOasisOtel
             // buttonYonetici
             // 
             this.buttonYonetici.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonYonetici.Location = new System.Drawing.Point(267, 416);
+            this.buttonYonetici.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonYonetici.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonYonetici.Location = new System.Drawing.Point(275, 366);
             this.buttonYonetici.Name = "buttonYonetici";
             this.buttonYonetici.Size = new System.Drawing.Size(219, 68);
             this.buttonYonetici.TabIndex = 43;
-            this.buttonYonetici.Text = "yönetici giriş";
+            this.buttonYonetici.Text = "Yönetici giriş";
             this.buttonYonetici.UseVisualStyleBackColor = true;
             // 
             // Anasayfa

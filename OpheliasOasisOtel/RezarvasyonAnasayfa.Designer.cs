@@ -56,7 +56,7 @@ namespace OpheliasOasisOtel
             this.buttonCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCikis.Font = new System.Drawing.Font("Constantia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonCikis.ForeColor = System.Drawing.Color.Maroon;
-            this.buttonCikis.Location = new System.Drawing.Point(763, 9);
+            this.buttonCikis.Location = new System.Drawing.Point(970, 9);
             this.buttonCikis.Name = "buttonCikis";
             this.buttonCikis.Size = new System.Drawing.Size(85, 76);
             this.buttonCikis.TabIndex = 76;
@@ -67,23 +67,25 @@ namespace OpheliasOasisOtel
             // labelRezAnasayfa
             // 
             this.labelRezAnasayfa.BackColor = System.Drawing.Color.Transparent;
-            this.labelRezAnasayfa.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelRezAnasayfa.ForeColor = System.Drawing.Color.DarkBlue;
-            this.labelRezAnasayfa.Location = new System.Drawing.Point(100, 29);
+            this.labelRezAnasayfa.Font = new System.Drawing.Font("Cooper Black", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRezAnasayfa.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelRezAnasayfa.Location = new System.Drawing.Point(36, 18);
             this.labelRezAnasayfa.Name = "labelRezAnasayfa";
-            this.labelRezAnasayfa.Size = new System.Drawing.Size(625, 71);
+            this.labelRezAnasayfa.Size = new System.Drawing.Size(709, 71);
             this.labelRezAnasayfa.TabIndex = 77;
-            this.labelRezAnasayfa.Text = "REZARVASYON ANASAYFA";
+            this.labelRezAnasayfa.Text = "REZERVASYON ANASAYFA";
             this.labelRezAnasayfa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelistek
             // 
             this.labelistek.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.labelistek.Location = new System.Drawing.Point(51, 117);
+            this.labelistek.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelistek.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelistek.Location = new System.Drawing.Point(51, 121);
             this.labelistek.Name = "labelistek";
-            this.labelistek.Size = new System.Drawing.Size(405, 23);
+            this.labelistek.Size = new System.Drawing.Size(357, 33);
             this.labelistek.TabIndex = 78;
-            this.labelistek.Text = "Yapmak istediğiniz rezarvasyon tipine tıklayınız.";
+            this.labelistek.Text = "Rezervasyon tipini seçiniz";
             // 
             // comboBoxRezler
             // 
@@ -93,126 +95,144 @@ namespace OpheliasOasisOtel
             "60 Gün Önceden Rezarvasyon",
             "Standart(Klasik) Rezarvasyon",
             "Teşvik Rezarvasyonları"});
-            this.comboBoxRezler.Location = new System.Drawing.Point(407, 117);
+            this.comboBoxRezler.Location = new System.Drawing.Point(504, 121);
             this.comboBoxRezler.Name = "comboBoxRezler";
-            this.comboBoxRezler.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxRezler.Size = new System.Drawing.Size(252, 24);
             this.comboBoxRezler.TabIndex = 84;
             this.comboBoxRezler.SelectedIndexChanged += new System.EventHandler(this.comboBoxRezler_SelectedIndexChanged);
             // 
             // buttonRezYap
             // 
-            this.buttonRezYap.Location = new System.Drawing.Point(89, 586);
+            this.buttonRezYap.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonRezYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonRezYap.Location = new System.Drawing.Point(549, 529);
             this.buttonRezYap.Name = "buttonRezYap";
-            this.buttonRezYap.Size = new System.Drawing.Size(223, 36);
+            this.buttonRezYap.Size = new System.Drawing.Size(223, 58);
             this.buttonRezYap.TabIndex = 97;
             this.buttonRezYap.Text = "Rezarvasyon Oluştur";
-            this.buttonRezYap.UseVisualStyleBackColor = true;
+            this.buttonRezYap.UseVisualStyleBackColor = false;
             this.buttonRezYap.Click += new System.EventHandler(this.buttonRezYap_Click);
             // 
             // buttonOnayla
             // 
-            this.buttonOnayla.Location = new System.Drawing.Point(89, 493);
+            this.buttonOnayla.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonOnayla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonOnayla.Location = new System.Drawing.Point(548, 430);
             this.buttonOnayla.Name = "buttonOnayla";
-            this.buttonOnayla.Size = new System.Drawing.Size(149, 36);
+            this.buttonOnayla.Size = new System.Drawing.Size(224, 60);
             this.buttonOnayla.TabIndex = 96;
             this.buttonOnayla.Text = "Hesabı Gör";
-            this.buttonOnayla.UseVisualStyleBackColor = true;
+            this.buttonOnayla.UseVisualStyleBackColor = false;
             this.buttonOnayla.Click += new System.EventHandler(this.buttonOnayla_Click);
             // 
             // labelGunluk
             // 
-            this.labelGunluk.Location = new System.Drawing.Point(234, 226);
+            this.labelGunluk.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelGunluk.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelGunluk.Location = new System.Drawing.Point(367, 175);
             this.labelGunluk.Name = "labelGunluk";
-            this.labelGunluk.Size = new System.Drawing.Size(107, 23);
+            this.labelGunluk.Size = new System.Drawing.Size(74, 39);
             this.labelGunluk.TabIndex = 95;
             this.labelGunluk.Text = "0";
             // 
             // labelOdataban
             // 
-            this.labelOdataban.Location = new System.Drawing.Point(91, 226);
+            this.labelOdataban.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelOdataban.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelOdataban.Location = new System.Drawing.Point(51, 175);
             this.labelOdataban.Name = "labelOdataban";
-            this.labelOdataban.Size = new System.Drawing.Size(147, 39);
+            this.labelOdataban.Size = new System.Drawing.Size(269, 39);
             this.labelOdataban.TabIndex = 94;
             this.labelOdataban.Text = "Odanın günlük fiyatı: ";
             // 
             // labelFiyat
             // 
-            this.labelFiyat.Location = new System.Drawing.Point(472, 503);
+            this.labelFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelFiyat.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelFiyat.Location = new System.Drawing.Point(356, 446);
             this.labelFiyat.Name = "labelFiyat";
-            this.labelFiyat.Size = new System.Drawing.Size(189, 23);
+            this.labelFiyat.Size = new System.Drawing.Size(67, 41);
             this.labelFiyat.TabIndex = 93;
             this.labelFiyat.Text = "0";
             // 
             // labelTutar
             // 
-            this.labelTutar.Location = new System.Drawing.Point(286, 503);
+            this.labelTutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelTutar.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelTutar.Location = new System.Drawing.Point(51, 443);
             this.labelTutar.Name = "labelTutar";
-            this.labelTutar.Size = new System.Drawing.Size(137, 23);
+            this.labelTutar.Size = new System.Drawing.Size(245, 44);
             this.labelTutar.TabIndex = 92;
             this.labelTutar.Text = "Ödeyeceğiniz Tutar:";
             // 
             // textBoxKredi
             // 
             this.textBoxKredi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBoxKredi.Location = new System.Drawing.Point(395, 401);
+            this.textBoxKredi.Location = new System.Drawing.Point(549, 350);
             this.textBoxKredi.Multiline = true;
             this.textBoxKredi.Name = "textBoxKredi";
-            this.textBoxKredi.Size = new System.Drawing.Size(197, 39);
+            this.textBoxKredi.Size = new System.Drawing.Size(252, 38);
             this.textBoxKredi.TabIndex = 91;
             // 
             // labelKredi
             // 
-            this.labelKredi.Location = new System.Drawing.Point(91, 417);
+            this.labelKredi.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelKredi.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelKredi.Location = new System.Drawing.Point(51, 364);
             this.labelKredi.Name = "labelKredi";
-            this.labelKredi.Size = new System.Drawing.Size(286, 23);
+            this.labelKredi.Size = new System.Drawing.Size(423, 36);
             this.labelKredi.TabIndex = 90;
             this.labelKredi.Text = "Lütfen kredi kartı numaranızı girin:";
             // 
             // labelAyrilisTarih
             // 
-            this.labelAyrilisTarih.Location = new System.Drawing.Point(91, 334);
+            this.labelAyrilisTarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelAyrilisTarih.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelAyrilisTarih.Location = new System.Drawing.Point(51, 292);
             this.labelAyrilisTarih.Name = "labelAyrilisTarih";
-            this.labelAyrilisTarih.Size = new System.Drawing.Size(286, 23);
+            this.labelAyrilisTarih.Size = new System.Drawing.Size(473, 33);
             this.labelAyrilisTarih.TabIndex = 89;
             this.labelAyrilisTarih.Text = "Lütfen çıkış yapmak istediğiniz tarihi seçin:";
             // 
             // labelGelisTarih
             // 
-            this.labelGelisTarih.Location = new System.Drawing.Point(91, 280);
+            this.labelGelisTarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelGelisTarih.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelGelisTarih.Location = new System.Drawing.Point(51, 227);
             this.labelGelisTarih.Name = "labelGelisTarih";
-            this.labelGelisTarih.Size = new System.Drawing.Size(286, 23);
+            this.labelGelisTarih.Size = new System.Drawing.Size(473, 35);
             this.labelGelisTarih.TabIndex = 88;
             this.labelGelisTarih.Text = "Lütfen giriş yapmak istediğiniz tarihi seçin:";
             // 
             // dateTimePickerAyrilis
             // 
             this.dateTimePickerAyrilis.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerAyrilis.Location = new System.Drawing.Point(392, 334);
+            this.dateTimePickerAyrilis.Location = new System.Drawing.Point(549, 290);
             this.dateTimePickerAyrilis.Name = "dateTimePickerAyrilis";
-            this.dateTimePickerAyrilis.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePickerAyrilis.Size = new System.Drawing.Size(252, 22);
             this.dateTimePickerAyrilis.TabIndex = 87;
             // 
             // dateTimePickerGelis
             // 
             this.dateTimePickerGelis.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerGelis.Location = new System.Drawing.Point(392, 280);
+            this.dateTimePickerGelis.Location = new System.Drawing.Point(548, 227);
             this.dateTimePickerGelis.Name = "dateTimePickerGelis";
-            this.dateTimePickerGelis.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePickerGelis.Size = new System.Drawing.Size(253, 22);
             this.dateTimePickerGelis.TabIndex = 86;
             // 
             // dateTimePickerRez
             // 
             this.dateTimePickerRez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerRez.Location = new System.Drawing.Point(632, 119);
+            this.dateTimePickerRez.Location = new System.Drawing.Point(788, 119);
             this.dateTimePickerRez.Name = "dateTimePickerRez";
-            this.dateTimePickerRez.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePickerRez.Size = new System.Drawing.Size(234, 22);
             this.dateTimePickerRez.TabIndex = 85;
             this.dateTimePickerRez.Visible = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(754, 656);
+            this.label1.Location = new System.Drawing.Point(967, 506);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 17);
             this.label1.TabIndex = 98;
@@ -223,7 +243,7 @@ namespace OpheliasOasisOtel
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(860, 777);
+            this.ClientSize = new System.Drawing.Size(1067, 777);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonRezYap);
             this.Controls.Add(this.buttonOnayla);

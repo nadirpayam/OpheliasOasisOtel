@@ -57,7 +57,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonGirisYap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonGirisYap.BackgroundImage")));
             this.buttonGirisYap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonGirisYap.Location = new System.Drawing.Point(624, 429);
+            this.buttonGirisYap.Location = new System.Drawing.Point(605, 416);
             this.buttonGirisYap.Name = "buttonGirisYap";
             this.buttonGirisYap.Size = new System.Drawing.Size(134, 55);
             this.buttonGirisYap.TabIndex = 76;
@@ -113,7 +113,7 @@ namespace OpheliasOasisOtel
             // labelKaydol
             // 
             this.labelKaydol.BackColor = System.Drawing.Color.Transparent;
-            this.labelKaydol.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelKaydol.Font = new System.Drawing.Font("Cooper Black", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKaydol.ForeColor = System.Drawing.Color.White;
             this.labelKaydol.Location = new System.Drawing.Point(284, 18);
             this.labelKaydol.Name = "labelKaydol";
@@ -128,7 +128,7 @@ namespace OpheliasOasisOtel
             this.checkBoxGoster.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxGoster.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.checkBoxGoster.ForeColor = System.Drawing.Color.White;
-            this.checkBoxGoster.Location = new System.Drawing.Point(566, 375);
+            this.checkBoxGoster.Location = new System.Drawing.Point(605, 369);
             this.checkBoxGoster.Name = "checkBoxGoster";
             this.checkBoxGoster.Size = new System.Drawing.Size(107, 33);
             this.checkBoxGoster.TabIndex = 70;
