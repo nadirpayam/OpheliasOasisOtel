@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace OpheliasOasisOtel
 {
@@ -17,14 +19,30 @@ namespace OpheliasOasisOtel
             InitializeComponent();
         }
 
+        Classlar.SqlBaglantisi sql = new Classlar.SqlBaglantisi();
         private void button1_Click(object sender, EventArgs e)
         {
-            DateTime dt1 = new DateTime(dateTimePicker1.Value.Day);
-            DateTime dt2 = new DateTime(dateTimePicker2.Value.Day);
-            dt1 = dateTimePicker1.Value;
-            dt2 = dateTimePicker2.Value.AddDays(1);
-            TimeSpan dt3 = dt2 - dt1;
-            label4.Text = (Convert.ToInt32(dt3.Days) * Convert.ToInt32(label3.Text)).ToString();
+            DateTime baslamaTarihi = new DateTime();
+            baslamaTarihi = dateTimePickerGelis.Value;
+            DateTime bitisTarihi = new DateTime();
+            bitisTarihi = dateTimePickerAyrilis.Value;
+
+            TimeSpan kalangun = bitisTarihi - baslamaTarihi;//Sonucu zaman olarak döndürür
+            double toplamGun = kalangun.TotalDays;// kalanGun den TotalDays ile sadece toplam gun değerini çekiyoruz. 
+
+           
+            label1.Text = Math.Ceiling(toplamGun).ToString();
+
+            if(Convert.ToInt32(label1.Text) < 60)
+            {
+                MessageBox.Show("Ne oluyor lan");
+            }
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

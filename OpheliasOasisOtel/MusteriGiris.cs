@@ -24,7 +24,7 @@ namespace OpheliasOasisOtel
         Classlar.SqlBaglantisi sql = new Classlar.SqlBaglantisi();
         private void buttonGirisYap_Click(object sender, EventArgs e)
         {
-
+           
             if (textBoxKulAd.Text == "" || textBoxSifre.Text == "")
             {
                 MessageBox.Show("Kullanıcı adı veya şifre boş geçilmez.");

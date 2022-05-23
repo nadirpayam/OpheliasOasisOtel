@@ -14,3 +14,5 @@ C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug
 C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.RezarvasyonAnasayfa.resources
 C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.OnOdeme.resources
 C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.Form2.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel._60gun.resources
+C:\Users\NADİR PAYAM\Source\Repos\OpheliasOasisOtel\OpheliasOasisOtel\obj\Debug\OpheliasOasisOtel.Standart.resources
