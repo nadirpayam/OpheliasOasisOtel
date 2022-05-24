@@ -39,12 +39,13 @@ namespace OpheliasOasisOtel
             // 
             // buttonKaydol
             // 
-            this.buttonKaydol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonKaydol.BackgroundImage")));
             this.buttonKaydol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonKaydol.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonKaydol.Location = new System.Drawing.Point(275, 90);
             this.buttonKaydol.Name = "buttonKaydol";
             this.buttonKaydol.Size = new System.Drawing.Size(219, 68);
             this.buttonKaydol.TabIndex = 3;
+            this.buttonKaydol.Text = "Kaydol";
             this.buttonKaydol.UseVisualStyleBackColor = true;
             this.buttonKaydol.Click += new System.EventHandler(this.buttonUyeOl_Click);
             // 
@@ -65,12 +66,13 @@ namespace OpheliasOasisOtel
             // 
             // buttonMusteriGiris
             // 
-            this.buttonMusteriGiris.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMusteriGiris.BackgroundImage")));
             this.buttonMusteriGiris.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonMusteriGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonMusteriGiris.Location = new System.Drawing.Point(275, 184);
             this.buttonMusteriGiris.Name = "buttonMusteriGiris";
             this.buttonMusteriGiris.Size = new System.Drawing.Size(219, 68);
             this.buttonMusteriGiris.TabIndex = 40;
+            this.buttonMusteriGiris.Text = "Müşteri Giriş";
             this.buttonMusteriGiris.UseVisualStyleBackColor = true;
             this.buttonMusteriGiris.Click += new System.EventHandler(this.buttonMusteriGiris_Click);
             // 
@@ -84,6 +86,7 @@ namespace OpheliasOasisOtel
             this.buttonCalisan.TabIndex = 41;
             this.buttonCalisan.Text = "Calisan Giriş";
             this.buttonCalisan.UseVisualStyleBackColor = true;
+            this.buttonCalisan.Click += new System.EventHandler(this.buttonCalisan_Click);
             // 
             // buttonYonetici
             // 
@@ -96,6 +99,7 @@ namespace OpheliasOasisOtel
             this.buttonYonetici.TabIndex = 43;
             this.buttonYonetici.Text = "Yönetici giriş";
             this.buttonYonetici.UseVisualStyleBackColor = true;
+            this.buttonYonetici.Click += new System.EventHandler(this.buttonYonetici_Click);
             // 
             // Anasayfa
             // 

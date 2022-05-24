@@ -82,6 +82,7 @@ namespace OpheliasOasisOtel
             this.textBoxoran.Name = "textBoxoran";
             this.textBoxoran.Size = new System.Drawing.Size(230, 37);
             this.textBoxoran.TabIndex = 4;
+            this.textBoxoran.TextChanged += new System.EventHandler(this.textBoxoran_TextChanged);
             // 
             // BeklenenDolulukRaporu
             // 

@@ -33,7 +33,7 @@ namespace OpheliasOasisOtel
         private void Rezarvasyonlarim_Load(object sender, EventArgs e)
         {
               string odavermek = "update Rezarvasyonlar set odaID = (Select top 1 odaID from Oda where doluMu = 'Hayır') " +
-            " where gelistarihi= '2022-11-02' and musteriID = '" + Classlar.KullaniciBilgileri.KullaniciID + "'";
+            " where gelistarihi= '" + dataGridViewRezler.CurrentRow.Cells["gelistarihi"].Value + "'" + " and musteriID = '" + Classlar.KullaniciBilgileri.KullaniciID + "'";
 
        
 
@@ -100,7 +100,7 @@ namespace OpheliasOasisOtel
         void RezarvasyonGuncelle()
         {
             string guncedlle = "update Rezarvasyonlar set gelistarihi = '" + dataGridViewRezler.CurrentRow.Cells["gelistarihi"].Value + "'" +
-                "where rezarvasyonID = 84 and gelistarihi = '2024-04-17'";
+                "where rezarvasyonID = 84 and gelistarihi = '" + dataGridViewRezler.CurrentRow.Cells["gelistarihi"] + "'";
 
 
 
@@ -120,8 +120,8 @@ namespace OpheliasOasisOtel
             {
                 case "Ön Ödeme":
                     int z = Convert.ToInt32(dataGridViewRezler.CurrentRow.Cells["tabanfiyati"].Value);
-                    double w = z * 1.10;
-                    MessageBox.Show(w + " tutarını ödedikten sonra gün değişikliğiniz yapılacaktır.");
+                    double ekucret = z * 1.10;
+                    MessageBox.Show(ekucret + " tutarını ödedikten sonra gün değişikliğiniz yapılacaktır.");
                     RezarvasyonGuncelle();
                     RezarvasyonlariGetir();
                     break;
@@ -146,6 +146,11 @@ namespace OpheliasOasisOtel
 
             }
 
+        }
+
+        private void buttonCikis_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

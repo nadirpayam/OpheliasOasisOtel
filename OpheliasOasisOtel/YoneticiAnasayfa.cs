@@ -16,5 +16,25 @@ namespace OpheliasOasisOtel
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TesvikRaporu tesvik = new TesvikRaporu();
+            tesvik.Show();
+            this.Hide();
+
+        }
+
+        private void buttonyedekle_Click(object sender, EventArgs e)
+        {
+            Yedekleme yedek = new Yedekleme();
+            yedek.Show();
+            this.Hide();
+        }
     }
 }

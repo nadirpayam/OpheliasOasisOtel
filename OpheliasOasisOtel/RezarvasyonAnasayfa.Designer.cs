@@ -46,7 +46,6 @@ namespace OpheliasOasisOtel
             this.dateTimePickerAyrilis = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerGelis = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerRez = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonCikis
@@ -95,7 +94,7 @@ namespace OpheliasOasisOtel
             "60 Gün Önceden Rezarvasyon",
             "Standart(Klasik) Rezarvasyon",
             "Teşvik Rezarvasyonları"});
-            this.comboBoxRezler.Location = new System.Drawing.Point(504, 121);
+            this.comboBoxRezler.Location = new System.Drawing.Point(414, 121);
             this.comboBoxRezler.Name = "comboBoxRezler";
             this.comboBoxRezler.Size = new System.Drawing.Size(252, 24);
             this.comboBoxRezler.TabIndex = 84;
@@ -105,7 +104,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonRezYap.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonRezYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buttonRezYap.Location = new System.Drawing.Point(549, 529);
+            this.buttonRezYap.Location = new System.Drawing.Point(578, 517);
             this.buttonRezYap.Name = "buttonRezYap";
             this.buttonRezYap.Size = new System.Drawing.Size(223, 58);
             this.buttonRezYap.TabIndex = 97;
@@ -117,7 +116,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonOnayla.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonOnayla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buttonOnayla.Location = new System.Drawing.Point(548, 430);
+            this.buttonOnayla.Location = new System.Drawing.Point(66, 438);
             this.buttonOnayla.Name = "buttonOnayla";
             this.buttonOnayla.Size = new System.Drawing.Size(224, 60);
             this.buttonOnayla.TabIndex = 96;
@@ -129,9 +128,9 @@ namespace OpheliasOasisOtel
             // 
             this.labelGunluk.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelGunluk.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelGunluk.Location = new System.Drawing.Point(367, 175);
+            this.labelGunluk.Location = new System.Drawing.Point(334, 175);
             this.labelGunluk.Name = "labelGunluk";
-            this.labelGunluk.Size = new System.Drawing.Size(74, 39);
+            this.labelGunluk.Size = new System.Drawing.Size(140, 39);
             this.labelGunluk.TabIndex = 95;
             this.labelGunluk.Text = "0";
             // 
@@ -149,9 +148,9 @@ namespace OpheliasOasisOtel
             // 
             this.labelFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelFiyat.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelFiyat.Location = new System.Drawing.Point(356, 446);
+            this.labelFiyat.Location = new System.Drawing.Point(606, 438);
             this.labelFiyat.Name = "labelFiyat";
-            this.labelFiyat.Size = new System.Drawing.Size(67, 41);
+            this.labelFiyat.Size = new System.Drawing.Size(118, 41);
             this.labelFiyat.TabIndex = 93;
             this.labelFiyat.Text = "0";
             // 
@@ -159,7 +158,7 @@ namespace OpheliasOasisOtel
             // 
             this.labelTutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelTutar.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelTutar.Location = new System.Drawing.Point(51, 443);
+            this.labelTutar.Location = new System.Drawing.Point(334, 438);
             this.labelTutar.Name = "labelTutar";
             this.labelTutar.Size = new System.Drawing.Size(245, 44);
             this.labelTutar.TabIndex = 92;
@@ -223,28 +222,18 @@ namespace OpheliasOasisOtel
             // dateTimePickerRez
             // 
             this.dateTimePickerRez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerRez.Location = new System.Drawing.Point(788, 119);
+            this.dateTimePickerRez.Location = new System.Drawing.Point(45, 565);
             this.dateTimePickerRez.Name = "dateTimePickerRez";
             this.dateTimePickerRez.Size = new System.Drawing.Size(234, 22);
             this.dateTimePickerRez.TabIndex = 85;
             this.dateTimePickerRez.Visible = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(967, 506);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 98;
-            this.label1.Text = "label1";
             // 
             // RezarvasyonAnasayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1067, 777);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1067, 623);
             this.Controls.Add(this.buttonRezYap);
             this.Controls.Add(this.buttonOnayla);
             this.Controls.Add(this.labelGunluk);
@@ -290,6 +279,5 @@ namespace OpheliasOasisOtel
         private System.Windows.Forms.DateTimePicker dateTimePickerAyrilis;
         private System.Windows.Forms.DateTimePicker dateTimePickerGelis;
         private System.Windows.Forms.DateTimePicker dateTimePickerRez;
-        private System.Windows.Forms.Label label1;
     }
 }

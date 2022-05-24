@@ -34,6 +34,7 @@ namespace OpheliasOasisOtel
             this.buttoniptalet = new System.Windows.Forms.Button();
             this.buttonGuncelle = new System.Windows.Forms.Button();
             this.dateTimePickerdegisik = new System.Windows.Forms.DateTimePicker();
+            this.buttonCikis = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRezler)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttoniptalet.BackColor = System.Drawing.Color.LightSalmon;
             this.buttoniptalet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buttoniptalet.Location = new System.Drawing.Point(50, 340);
+            this.buttoniptalet.Location = new System.Drawing.Point(50, 354);
             this.buttoniptalet.Name = "buttoniptalet";
             this.buttoniptalet.Size = new System.Drawing.Size(218, 66);
             this.buttoniptalet.TabIndex = 2;
@@ -88,13 +89,29 @@ namespace OpheliasOasisOtel
             this.dateTimePickerdegisik.Size = new System.Drawing.Size(200, 22);
             this.dateTimePickerdegisik.TabIndex = 4;
             // 
+            // buttonCikis
+            // 
+            this.buttonCikis.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCikis.FlatAppearance.BorderSize = 0;
+            this.buttonCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCikis.Font = new System.Drawing.Font("Constantia", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonCikis.ForeColor = System.Drawing.Color.Maroon;
+            this.buttonCikis.Location = new System.Drawing.Point(784, 12);
+            this.buttonCikis.Name = "buttonCikis";
+            this.buttonCikis.Size = new System.Drawing.Size(85, 76);
+            this.buttonCikis.TabIndex = 69;
+            this.buttonCikis.Text = "X";
+            this.buttonCikis.UseVisualStyleBackColor = false;
+            this.buttonCikis.Click += new System.EventHandler(this.buttonCikis_Click);
+            // 
             // Rezarvasyonlarim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(800, 580);
+            this.ClientSize = new System.Drawing.Size(890, 580);
+            this.Controls.Add(this.buttonCikis);
             this.Controls.Add(this.dateTimePickerdegisik);
             this.Controls.Add(this.buttonGuncelle);
             this.Controls.Add(this.buttoniptalet);
@@ -116,5 +133,6 @@ namespace OpheliasOasisOtel
         private System.Windows.Forms.Button buttoniptalet;
         private System.Windows.Forms.Button buttonGuncelle;
         private System.Windows.Forms.DateTimePicker dateTimePickerdegisik;
+        private System.Windows.Forms.Button buttonCikis;
     }
 }

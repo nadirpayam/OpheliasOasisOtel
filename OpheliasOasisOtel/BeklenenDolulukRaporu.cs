@@ -54,5 +54,10 @@ namespace OpheliasOasisOtel
             textBoxKayit.Text = (dataGridViewdoluluk.RowCount - 1).ToString();
             dolulukorani();
         }
+
+        private void textBoxoran_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

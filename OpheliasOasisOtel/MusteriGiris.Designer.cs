@@ -77,7 +77,7 @@ namespace OpheliasOasisOtel
             // 
             this.buttonGirisYap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonGirisYap.BackgroundImage")));
             this.buttonGirisYap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonGirisYap.Location = new System.Drawing.Point(364, 321);
+            this.buttonGirisYap.Location = new System.Drawing.Point(364, 320);
             this.buttonGirisYap.Name = "buttonGirisYap";
             this.buttonGirisYap.Size = new System.Drawing.Size(197, 55);
             this.buttonGirisYap.TabIndex = 66;

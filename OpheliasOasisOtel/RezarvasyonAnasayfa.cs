@@ -26,15 +26,10 @@ namespace OpheliasOasisOtel
             Application.Exit();
         }
 
-     
-  
-
-       
-
-      
-        int b;
+       int b;
         private void RezarvasyonAnasayfa_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Kalacağınız her gece odanın fiyatı farklı olabilir. -- Yönetim");
             string taban = "Select top 1 tabanfiyat from Oda";
             SqlCommand com = new SqlCommand(taban, sql.baglan());
             SqlDataReader rd = com.ExecuteReader();
@@ -70,10 +65,6 @@ namespace OpheliasOasisOtel
                     labelGunluk.Text = (b).ToString();
                     break;
             }
-
-
-
-
 
 
             if (comboBoxRezler.SelectedIndex == 1)
@@ -140,6 +131,7 @@ namespace OpheliasOasisOtel
             SqlCommand komut2 = new SqlCommand(sorgu2, sql.baglan());
             komut2.ExecuteNonQuery();
         }
+        public int indirim;
         private void buttonRezYap_Click(object sender, EventArgs e)
         {
 
@@ -182,6 +174,10 @@ namespace OpheliasOasisOtel
                     break;
                 case 3:
                     odemeTipi = "Teşvik";
+                    if((Convert.ToInt32("select(count(odaId) / 0.3) as 'Dolu Odalar' from Oda where doluMu = 'Evet')") < 60)) {
+                        labelGunluk.Text = (Convert.ToDouble(labelGunluk.Text) * 0.8).ToString();
+                        indirim = Convert.ToInt32(labelGunluk.Text);
+                    }
                     RezKaydet();
                     krediKaydet();
                     MessageBox.Show("Lütfen rezarvasyonunuz kaydedildi.");

@@ -63,6 +63,7 @@ namespace OpheliasOasisOtel
             this.buttonGirisYap.Size = new System.Drawing.Size(197, 55);
             this.buttonGirisYap.TabIndex = 85;
             this.buttonGirisYap.UseVisualStyleBackColor = true;
+            this.buttonGirisYap.Click += new System.EventHandler(this.buttonGirisYap_Click);
             // 
             // checkBoxGoster
             // 

@@ -35,5 +35,19 @@ namespace OpheliasOasisOtel
             musteri.Show();
             this.Hide();
         }
+
+        private void buttonCalisan_Click(object sender, EventArgs e)
+        {
+            CalisanAnasayfa anasayfa = new CalisanAnasayfa();
+            anasayfa.Show();
+            this.Hide();
+        }
+
+        private void buttonYonetici_Click(object sender, EventArgs e)
+        {
+            YoneticiAnasayfa anasayfa = new YoneticiAnasayfa();
+            anasayfa.Show();
+            this.Hide();
+        }
     }
 }
